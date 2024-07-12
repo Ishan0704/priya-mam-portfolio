@@ -31,7 +31,7 @@ const Header =() => {
 
                         <li className="nav__item">
                             <a href="#subject_taught" className="nav__link">
-                                <i className="uil uil-briefcase-alt nav__icon"></i> Subject Taught
+                                <i className="uil uil-briefcase-alt nav__icon"></i> Subjects Taught
                             </a>
                         </li>
 
