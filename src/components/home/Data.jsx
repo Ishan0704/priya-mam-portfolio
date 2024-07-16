@@ -57,7 +57,7 @@ const Data = () => {
         </h1>
         <h3 className="home__subtitle">Assistant Professor</h3>
         <p className="home__description">
-            Love teaching and exploring new technologies. 
+            Leading with Passion: Innovation, Education, Transformation.
         </p>
 
         <a href="#contact" className="button button--flex button-say-hello" >Say Hello
