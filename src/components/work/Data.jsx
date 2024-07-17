@@ -1,9 +1,5 @@
 // Data.js
 import Work1 from "../../assets/work1.jpg";
-import Work2 from "../../assets/work2.jpg";
-import Work3 from "../../assets/work3.jpg";
-import Work4 from "../../assets/work4.jpg";
-import Work5 from "../../assets/work5.jpg";
 
 import ICTIEE from "../../assets/Publication_images/ICTIEE 2023.jpeg";
 import IJRAR from '../../assets/Publication_images/IJRAR, 2022.jpeg';
@@ -35,6 +31,27 @@ import inhouse from '../../assets/projects/inhouse.png';
 import article1 from '../../assets/news/news1.png';
 import article2 from '../../assets/news/news2.png';
 import article3 from '../../assets/news/news3.png';
+import article4 from '../../assets/news/news4.jpg';
+import article5 from '../../assets/news/news5.jpg';
+import article6 from '../../assets/news/news6.jpg';
+import article7 from '../../assets/news/news7.jpg';
+import article8 from '../../assets/news/news8.jpg';
+import article9 from '../../assets/news/news9.jpg';
+import article10 from '../../assets/news/news10.jpg';
+import article11 from '../../assets/news/news11.jpg';
+import article12 from '../../assets/news/news12.jpg';
+import article13 from '../../assets/news/news13.jpg';
+import article14 from '../../assets/news/news14.jpg';
+import article15 from '../../assets/news/news15.jpg';
+import article16 from '../../assets/news/news16.jpg';
+import article17 from '../../assets/news/news17.jpg';
+import article18 from '../../assets/news/news18.jpg';
+import article19 from '../../assets/news/news19.jpg';
+import article20 from '../../assets/news/news20.jpg';
+import article21 from '../../assets/news/news21.png';
+import article22 from '../../assets/news/news22.jpg';
+import article23 from '../../assets/news/news23.jpg';
+import article24 from '../../assets/news/news24.jpg';
 
 import story1 from '../../assets/career guidelines/story1.png';
 import story2 from '../../assets/career guidelines/story2.png';
@@ -248,7 +265,7 @@ export const projectsData = [
         id: 20,
         image: article2,
         title: 'Article 2',
-        modal_heading:'Some Of My published Articles',
+        modal_heading:'',
         details:  '',
         modal_image :article2,
         content:'',
@@ -258,9 +275,223 @@ export const projectsData = [
         id: 21,
         image: article3,
         title: 'Article 3',
-        modal_heading:'Some Of My published Articles',
+        modal_heading:'',
         details:  '',
         modal_image :article3,
+        content:'',
+        category: 'News',
+    },
+    {
+        id: 22,
+        image: article8,
+        title: 'Article 4',
+        modal_heading:'',
+        details:  '',
+        modal_image :article8,
+        content:'',
+        category: 'News',
+    },
+    {
+        id: 24,
+        image: article5,
+        title: 'Article 5',
+        modal_heading:'',
+        details:  '',
+        modal_image :article5,
+        content:'',
+        category: 'News',
+    },
+    {
+        id: 25,
+        image: article6,
+        title: 'Article 6',
+        modal_heading:'',
+        details:  '',
+        modal_image :article6,
+        content:'',
+        category: 'News',
+    },
+    {
+        id: 26,
+        image: article7,
+        title: 'Article 7',
+        modal_heading:'',
+        details:  '',
+        modal_image :article7,
+        content:'',
+        category: 'News',
+    },
+    {
+        id: 27,
+        image: article4,
+        title: 'Article 8',
+        modal_heading:'',
+        details:  '',
+        modal_image :article4,
+        content:'',
+        category: 'News',
+    },
+    {
+        id: 28,
+        image: article9,
+        title: 'Article 9',
+        modal_heading:'',
+        details:  '',
+        modal_image :article9,
+        content:'',
+        category: 'News',
+    },
+    {
+        id: 29,
+        image: article10,
+        title: 'Article 10',
+        modal_heading:'',
+        details:  '',
+        modal_image :article10,
+        content:'',
+        category: 'News',
+    },
+    {
+        id: 30,
+        image: article11,
+        title: 'Article 11',
+        modal_heading:'',
+        details:  '',
+        modal_image :article11,
+        content:'',
+        category: 'News',
+    },
+    {
+        id: 31,
+        image: article12,
+        title: 'Article 12',
+        modal_heading:'',
+        details:  '',
+        modal_image :article12,
+        content:'',
+        category: 'News',
+    },
+    {
+        id: 32,
+        image: article13,
+        title: 'Article 13',
+        modal_heading:'',
+        details:  '',
+        modal_image :article13,
+        content:'',
+        category: 'News',
+    },
+    {
+        id: 33,
+        image: article14,
+        title: 'Article 14',
+        modal_heading:'',
+        details:  '',
+        modal_image :article14,
+        content:'',
+        category: 'News',
+    },
+    {
+        id: 35,
+        image: article16,
+        title: 'Article 15',
+        modal_heading:'',
+        details:  '',
+        modal_image :article16,
+        content:'',
+        category: 'News',
+    },
+    {
+        id: 34,
+        image: article15,
+        title: 'Article 16',
+        modal_heading:'',
+        details:  '',
+        modal_image :article15,
+        content:'',
+        category: 'News',
+    },
+    {
+        id: 36,
+        image: article17,
+        title: 'Article 17',
+        modal_heading:'',
+        details:  '',
+        modal_image :article17,
+        content:'',
+        category: 'News',
+    },
+    {
+        id: 37,
+        image: article21,
+        title: 'Article 18',
+        modal_heading:'',
+        details:  '',
+        modal_image :article21,
+        content:'',
+        category: 'News',
+    },
+    // Article 19 & 20 are interchanged 
+    // Article 21 & 18 are interchanged
+    // Article 8 & 4 are interchanged
+    // Article 15 and 16 are re-arranged
+    {
+        id: 38,
+        image: article20,
+        title: 'Article 19',
+        modal_heading:'',
+        details:  '',
+        modal_image :article20,
+        content:'',
+        category: 'News',
+    },
+    {
+        id: 39,
+        image: article19,
+        title: 'Article 20',
+        modal_heading:'',
+        details:  '',
+        modal_image :article19,
+        content:'',
+        category: 'News',
+    },
+    {
+        id: 40,
+        image: article18,
+        title: 'Article 21',
+        modal_heading:'',
+        details:  '',
+        modal_image :article18,
+        content:'',
+        category: 'News',
+    },
+    {
+        id: 41,
+        image: article22,
+        title: 'Article 22',
+        modal_heading:'',
+        details:  '',
+        modal_image :article22,
+        content:'',
+        category: 'News',
+    },
+    {
+        id: 42,
+        image: article23,
+        title: 'Article 23',
+        modal_heading:'',
+        details:  '',
+        modal_image :article23,
+        content:'',
+        category: 'News',
+    },
+    {
+        id: 43,
+        image: article24,
+        title: 'Article 24',
+        modal_heading:'',
+        details:  '',
+        modal_image :article24,
         content:'',
         category: 'News',
     },
@@ -268,7 +499,7 @@ export const projectsData = [
 
     // career guided started 
     {
-        id: 22,
+        id: 45,
         image: story1,
         title: 'Success Story 1',
         modal_heading:'Success Story 1',
@@ -278,7 +509,7 @@ export const projectsData = [
         category: 'Career Guidelines',
     },
     {
-        id: 23,
+        id: 46,
         image: story2,
         title: 'Success Story 2',
         modal_heading:'Success Story 2',
@@ -288,7 +519,7 @@ export const projectsData = [
         category: 'Career Guidelines',
     },
     {
-        id: 24,
+        id: 47,
         image: story3,
         title: 'More Success Stories',
         modal_heading:'More Success Stories',
@@ -301,7 +532,7 @@ export const projectsData = [
 
     // Publication id's from  1-19
     {
-        id: 25,
+        id: 48,
         image: ICTIEE,
         title: 'Paper 1',
         modal_heading:'Title - “Providing adaptable curriculum enrichment through Teaching-Learning-Evaluation”',
@@ -309,7 +540,7 @@ export const projectsData = [
         category: 'Publication',
     },
     {
-        id: 26,
+        id: 49,
         image: IJRAR,
         title: 'Paper 2',
         modal_heading:'Title -“Future of Self Driving Vehicles in India”',
@@ -317,7 +548,7 @@ export const projectsData = [
         category: 'Publication',
     },
     {
-        id: 27,
+        id: 50,
         image: IJRAR,
         title: 'Paper 3',
         modal_heading:'Title -“Review paper on “Data transmission for underwater communication using Li-Fi”',
@@ -325,7 +556,7 @@ export const projectsData = [
         category: 'Publication',
     },
     {
-        id: 28,
+        id: 51,
         image: ICTACT,
         title: 'Paper 4',
         modal_heading:'Title -“Role of educational institutions for Atmanirbhar Bharat ”',
@@ -334,7 +565,7 @@ export const projectsData = [
     },
     
     {
-        id: 29,
+        id: 52,
         image: Work1,
         title: 'Paper 5',
         modal_heading:'Title -“Review paper on methodologies of tracking and monitoring of carbon credit',
@@ -342,7 +573,7 @@ export const projectsData = [
         category: 'Publication',
     },
     {
-        id: 30,
+        id: 53,
         image: ICTACT,
         title: 'Paper 6',
         modal_heading:'Title -“Review paper on monitoring Animal migration on earth using scientific equipment on the ISS RS”',
@@ -350,7 +581,7 @@ export const projectsData = [
         category: 'Publication',
     },
     {
-        id: 31,
+        id: 54,
         image: Work1,
         title: 'Paper 7',
         modal_heading:'Title - “Review Paper on Crowd Management Using Mob-Analyzer”',
@@ -358,7 +589,7 @@ export const projectsData = [
         category: 'Publication',
     },
     {
-        id: 32,
+        id: 55,
         image: ICTACT,
         title: 'Paper 8',
         modal_heading:'Title -“Review paper on Screen less Display”',
@@ -366,7 +597,7 @@ export const projectsData = [
         category: 'Publication',
     },
     {
-        id: 33,
+        id: 56,
         image: ICTACT,
         title: 'Paper 9',
         modal_heading:'Title -“Review paper on monitoring forest by remote sensing”',
@@ -374,7 +605,7 @@ export const projectsData = [
         category: 'Publication',
     },
     {
-        id: 34,
+        id: 57,
         image: ICTACT,
         title: 'Paper 10',
         modal_heading:'Title -“5G Frameworks & Network Management using AI”',
@@ -382,16 +613,15 @@ export const projectsData = [
         category: 'Publication',
     },
     {
-        id: 35,
+        id: 58,
         image: CPGCON,
         title: 'Paper 11',
         modal_heading:'Title -“Development of Recommender System based on Meta-Algorithmic Approach”',
         details: 'Publication -  CPGCON 16  ',
         category: 'Publication',
     },
-   
     {
-        id: 36,
+        id: 59,
         image: ICTACT,
         title: 'Paper 12',
         modal_heading:'Title -“Review paper on a Block chain as a cyber defence”',
@@ -400,7 +630,7 @@ export const projectsData = [
     },
     
     {
-        id: 37,
+        id: 60,
         image: Work1,
         title: 'Paper 13',
         modal_heading:'Title -“Technology and COVID – 19”',
@@ -408,7 +638,7 @@ export const projectsData = [
         category: 'Publication',
     },
     {
-        id: 38,
+        id: 61,
         image: ICTACT,
         title: 'Paper 14',
         modal_heading:'Title -“Review paper on Hive Interface”',
@@ -416,7 +646,7 @@ export const projectsData = [
         category: 'Publication',
     },
     {
-        id: 39,
+        id: 62,
         image: IJARCCE,
         title: 'Paper 15',
         modal_heading:'Title - “Meta-Algorithmic approach for development of recommender system”',
@@ -424,7 +654,7 @@ export const projectsData = [
         category: 'Publication',
     },
     {
-        id: 40,
+        id: 63,
         image: IJARCCE,
         title: 'Paper 16',
         modal_heading:'Title - “A Survey on Recommender System”',
@@ -432,7 +662,7 @@ export const projectsData = [
         category: 'Publication',
     },
     {
-        id: 41,
+        id: 64,
         image: ICRTET,
         title: 'Paper 17',
         modal_heading:'Title -“Opinion Mining - The Customer Review System”',
@@ -440,7 +670,7 @@ export const projectsData = [
         category: 'Publication',
     },
     {
-        id: 42,
+        id: 65,
         image: Work1,
         title: 'Paper 18',
         modal_heading:'Title - “Face identification based on lip movement features”',
@@ -448,7 +678,7 @@ export const projectsData = [
         category: 'Publication',
     },
     {
-        id: 43,
+        id: 66,
         image: ICTIEE,
         title: 'Paper 19',
         modal_heading:'Title -“Providing adaptable curriculum enrichment through Teaching-Learning-Evaluation”',
