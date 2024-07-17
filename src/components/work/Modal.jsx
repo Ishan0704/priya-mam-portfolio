@@ -1,4 +1,3 @@
-// Modal.js
 import React from 'react';
 
 const Modal = ({ show, onClose, project }) => {
@@ -14,7 +13,9 @@ const Modal = ({ show, onClose, project }) => {
         
         <h4 className='details'>{project.details}</h4>
 
-        <img className='modal_image' src={project.modal_image}/> 
+        <div className='image-wrapper'>
+          <img className='modal-image' src={project.modal_image} alt="Modal-Image"/> 
+        </div>
         <p className='content'>{project.content}</p>
       </div>
     </div>

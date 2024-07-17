@@ -93,12 +93,20 @@
     width: 100%;
     position: relative;
     text-align: center;
-    
   }
   
-  .modal-img {
+  .image-wrapper {
+    width: 100%;
+    height: 300px; /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .modal-image {
     max-width: 100%;
-    height: auto;
+    max-height: 100%;
   }
   
   .close-icon {
@@ -109,21 +117,14 @@
     cursor: pointer;
   }
   
-  .modal-title{
+  .modal-title {
     margin-bottom: var(--mb-1);
     color: var(--text-color);
     margin-top: var(--mb-2);
   }
-
-  .modal_image{
-    margin-top: var(--mb-1);
-    margin-bottom: var(--mb-1);
-    border: 1px solid var(--title-color);
-  }
-
-  .content{
-    margin-top:0.6rem;
-  }
+  
+  
+  
   
 
 /*=============== BREAKPOINTS ===============*/
@@ -136,6 +137,7 @@
     }
     .work__img{
         width: 200px;
+        object-fit: cover;
     }
     .work__filters{
         grid-template-columns: repeat(5,max-content);
