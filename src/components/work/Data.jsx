@@ -258,7 +258,14 @@ export const projectsData = [
     },
     // project guided ended
 
-    //news started
+    //news started 
+
+    // Article 19 & 20 are interchanged 
+    // Article 21 & 18 are interchanged
+    // Article 8 & 4 are interchanged
+    // Article 15 and 16 are re-arranged
+
+
     {
         id: 19,
         image: article1,
@@ -299,6 +306,7 @@ export const projectsData = [
         content:'',
         category: 'News',
     },
+    // 23 id is not assigned
     {
         id: 24,
         image: article5,
@@ -538,7 +546,7 @@ export const projectsData = [
     },
     // career giuded ended
 
-    // Publication id's from  1-19
+    // Publication started
     {
         id: 48,
         image: ICTIEE,
@@ -754,7 +762,7 @@ export const projectsData = [
 
     // Teaching and Learning started
     {
-        id: 67,
+        id: 71,
         image: Work1,
         title: 'Web Technology',
         modal_heading:'',
@@ -762,7 +770,7 @@ export const projectsData = [
         category: 'Teaching and Learning',
     },
     {
-        id: 68,
+        id: 72,
         image: Work1,
         title: 'Computer Networks',
         modal_heading:'',
@@ -770,7 +778,7 @@ export const projectsData = [
         category: 'Teaching and Learning',
     },
     {
-        id: 69,
+        id: 73,
         image: Work1,
         title: 'Engineering Exploration',
         modal_heading:'',
@@ -778,7 +786,7 @@ export const projectsData = [
         category: 'Teaching and Learning',
     },
     {
-        id: 70,
+        id: 74,
         image: Work1,
         title: 'Programming in C',
         modal_heading:'',
@@ -786,7 +794,7 @@ export const projectsData = [
         category: 'Teaching and Learning',
     },
     {
-        id: 71,
+        id: 75,
         image: Work1,
         title: 'Programming in C++',
         modal_heading:'',
@@ -794,7 +802,7 @@ export const projectsData = [
         category: 'Teaching and Learning',
     },
     {
-        id: 72,
+        id: 76,
         image: Work1,
         title: 'Design and Analysis of Algorithms',
         modal_heading:'',
@@ -802,14 +810,13 @@ export const projectsData = [
         category: 'Teaching and Learning',
     },
     {
-        id: 73,
+        id: 77,
         image: Work1,
         title: 'Design Thinking & Project Based Learning',
         modal_heading:'',
         details: '',
         category: 'Teaching and Learning',
     },
-
     // Teaching and Learning ended
 
 ];
