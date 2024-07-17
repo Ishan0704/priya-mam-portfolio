@@ -53,7 +53,7 @@ const Qualification = () => {
                     </div>
                     
                     <div>
-                        <h3 className="qualification__title">Master Of Engineering (ME)</h3>
+                        <h3 className="qualification__title">Master of Engineering (ME)</h3>
                         <span className="qualifiction__subtitle">Pune University</span>
 
                         <div className="qualification__calender">
@@ -66,7 +66,7 @@ const Qualification = () => {
 
                 <div className="qualification__data">
                     <div>
-                        <h3 className="qualification__title">Bachlor Of Engineering (BE)</h3>
+                        <h3 className="qualification__title">Bachlor of Engineering (BE)</h3>
                         <span className="qualifiction__subtitle">Pune University</span>
 
                         <div className="qualification__calender">
