@@ -74,7 +74,7 @@
 /* styles.css */
 .modal-overlay {
     position: fixed;
-    top: 0;
+    top: 2rem;
     left: 0;
     right: 0;
     bottom: 0;
@@ -110,19 +110,19 @@
   }
   
   .modal-title{
-    margin-bottom: var(--mb-2);
+    margin-bottom: var(--mb-1);
     color: var(--text-color);
     margin-top: var(--mb-2);
   }
 
   .modal_image{
-    margin-top: var(--mb-2);
+    margin-top: var(--mb-1);
     margin-bottom: var(--mb-1);
     border: 1px solid var(--title-color);
   }
 
   .content{
-    margin-top: var(--mb-2);
+    margin-top:0.6rem;
   }
   
 
