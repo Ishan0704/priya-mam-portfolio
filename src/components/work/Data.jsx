@@ -7,6 +7,14 @@ import ICTACT from "../../assets/Publication_images/ICTACT,2022.jpeg";
 import CPGCON from '../../assets/Publication_images/CPGCON-16.jpeg';
 import IJARCCE from '../../assets/Publication_images/IJARCCE.png';
 import ICRTET from '../../assets/Publication_images/ICRTET,2014.jpeg';
+import IRJET from '../../assets/Publication_images/IRJET,2020.png';
+import IJRETM from '../../assets/Publication_images/IJRETM, 2014.png';
+import IJAET from '../../assets/Publication_images/IJAET,2023.jpeg';
+import MSJ from '../../assets/Publication_images/MSJ.jpeg';
+import BTH from '../../assets/Publication_images/BTH.png';
+import IJET from '../../assets/Publication_images/IJTE.png';
+import springer from '../../assets/Publication_images/Springer.jpeg';
+import JETISM from '../../assets/Publication_images/JEITSM.png'
 
 import hardware from '../../assets/Achievements-images/Hardware.png';
 import software from '../../assets/Achievements-images/software.png';
@@ -536,6 +544,7 @@ export const projectsData = [
         image: ICTIEE,
         title: 'Paper 1',
         modal_heading:'Title - “Providing adaptable curriculum enrichment through Teaching-Learning-Evaluation”',
+        modal_image :ICTIEE,
         details: 'Publication - ICTIEE 2023 (Selected for conference held in Mysore on 6th January 2023)',
         category: 'Publication',
     },
@@ -544,6 +553,7 @@ export const projectsData = [
         image: IJRAR,
         title: 'Paper 2',
         modal_heading:'Title -“Future of Self Driving Vehicles in India”',
+        modal_image: IJRAR,
         details: 'Publication -  IJRAR, 2022 ',
         category: 'Publication',
     },
@@ -551,7 +561,8 @@ export const projectsData = [
         id: 50,
         image: IJRAR,
         title: 'Paper 3',
-        modal_heading:'Title -“Review paper on “Data transmission for underwater communication using Li-Fi”',
+        modal_heading:'Title -“Data transmission for underwater communication using Li-Fi”',
+        modal_image: IJRAR,
         details: 'Publication -  IJRAR, 2022 ',
         category: 'Publication',
     },
@@ -560,6 +571,7 @@ export const projectsData = [
         image: ICTACT,
         title: 'Paper 4',
         modal_heading:'Title -“Role of educational institutions for Atmanirbhar Bharat ”',
+        modal_image: ICTACT,
         details: 'Publication - ICTACT,2022',
         category: 'Publication',
     },
@@ -569,6 +581,7 @@ export const projectsData = [
         image: Work1,
         title: 'Paper 5',
         modal_heading:'Title -“Review paper on methodologies of tracking and monitoring of carbon credit',
+        modal_image: Work1,
         details: 'Publication -  Will update soon ',
         category: 'Publication',
     },
@@ -577,15 +590,17 @@ export const projectsData = [
         image: ICTACT,
         title: 'Paper 6',
         modal_heading:'Title -“Review paper on monitoring Animal migration on earth using scientific equipment on the ISS RS”',
+        modal_image: ICTACT,
         details: 'Publication -  ICTACT, 2022  ',
         category: 'Publication',
     },
     {
         id: 54,
-        image: Work1,
+        image: JETISM,
         title: 'Paper 7',
         modal_heading:'Title - “Review Paper on Crowd Management Using Mob-Analyzer”',
-        details: 'Publication -   Will update soon ', // JEITSM,2022
+        modal_image:JETISM ,
+        details: 'Publication - JEITSM ,2022', // JEITSM,2022
         category: 'Publication',
     },
     {
@@ -593,6 +608,7 @@ export const projectsData = [
         image: ICTACT,
         title: 'Paper 8',
         modal_heading:'Title -“Review paper on Screen less Display”',
+        modal_image: ICTACT,
         details: 'Publication -   ICTACT, 2022  ',
         category: 'Publication',
     },
@@ -601,6 +617,7 @@ export const projectsData = [
         image: ICTACT,
         title: 'Paper 9',
         modal_heading:'Title -“Review paper on monitoring forest by remote sensing”',
+        modal_image:ICTACT,
         details: 'Publication -  ICTACT, 2022',
         category: 'Publication',
     },
@@ -609,7 +626,8 @@ export const projectsData = [
         image: ICTACT,
         title: 'Paper 10',
         modal_heading:'Title -“5G Frameworks & Network Management using AI”',
-        details: 'Publication -  ICTACT,2022 ',
+        modal_image:ICTACT,
+        details: 'Publication - AIP,2024 ',
         category: 'Publication',
     },
     {
@@ -617,6 +635,7 @@ export const projectsData = [
         image: CPGCON,
         title: 'Paper 11',
         modal_heading:'Title -“Development of Recommender System based on Meta-Algorithmic Approach”',
+        modal_image: CPGCON,
         details: 'Publication -  CPGCON 16  ',
         category: 'Publication',
     },
@@ -625,16 +644,18 @@ export const projectsData = [
         image: ICTACT,
         title: 'Paper 12',
         modal_heading:'Title -“Review paper on a Block chain as a cyber defence”',
+        modal_image:ICTACT,
         details: 'Publication -   ICTACT, 2022',
         category: 'Publication',
     },
     
     {
         id: 60,
-        image: Work1,
+        image: IRJET,
         title: 'Paper 13',
         modal_heading:'Title -“Technology and COVID – 19”',
-        details: 'Publication -  Will update soon ,2020 ',
+        modal_image:IRJET,
+        details: 'Publication - IRJET, 2020',
         category: 'Publication',
     },
     {
@@ -642,6 +663,7 @@ export const projectsData = [
         image: ICTACT,
         title: 'Paper 14',
         modal_heading:'Title -“Review paper on Hive Interface”',
+        modal_image:ICTACT,
         details: 'Publication -   ICTACT, 2022  ',
         category: 'Publication',
     },
@@ -650,6 +672,7 @@ export const projectsData = [
         image: IJARCCE,
         title: 'Paper 15',
         modal_heading:'Title - “Meta-Algorithmic approach for development of recommender system”',
+        modal_image:IJARCCE,
         details: 'Publication -   IJARCCE, 2016 ',
         category: 'Publication',
     },
@@ -658,6 +681,7 @@ export const projectsData = [
         image: IJARCCE,
         title: 'Paper 16',
         modal_heading:'Title - “A Survey on Recommender System”',
+        modal_image:IJARCCE,
         details: 'Publication -  IJARCCE, 2016 ',
         category: 'Publication',
     },
@@ -666,26 +690,69 @@ export const projectsData = [
         image: ICRTET,
         title: 'Paper 17',
         modal_heading:'Title -“Opinion Mining - The Customer Review System”',
+        modal_image:ICRTET,
         details: 'Publication -  ICRTET,2014 ',
         category: 'Publication',
     },
     {
         id: 65,
-        image: Work1,
+        image: IJRETM,
         title: 'Paper 18',
         modal_heading:'Title - “Face identification based on lip movement features”',
-        details: 'Publication - will update soon , 2014 ',
+        modal_image:IJRETM,
+        details: 'Publication - IJRETM, 2014',
+        category: 'Publication',
+    },
+    // All entries which are new....
+    {
+        id: 66,
+        image: IJAET,
+        title: 'Paper 19',
+        modal_heading:'Title -“Emerging AI-Enable security for Industry 4.0”',
+        modal_image:IJAET,
+        details: ' Publication - International Journal of Applied Engineering and Technology, 2023',
         category: 'Publication',
     },
     {
-        id: 66,
-        image: ICTIEE,
-        title: 'Paper 19',
-        modal_heading:'Title -“Providing adaptable curriculum enrichment through Teaching-Learning-Evaluation”',
-        details: ' Publication - ICTIEE 2023 (Selected for conference held in Mysore on 6th January 2023)',
+        id: 67,
+        image: MSJ,
+        title: 'Paper 20',
+        modal_heading:'Title -“Review on ML for recognition of Chat - GPT generated text”',
+        modal_image:MSJ,
+        details: ' Publication - MS Journal,2024',
         category: 'Publication',
     },
+    {
+        id: 68,
+        image: BTH,
+        title: 'Paper 21',
+        modal_heading:'Title -“Ramrajya in Kaliyug: Find your inner Ram with modern Astra (Technology)”',
+        modal_image:BTH,
+        details: ' Publication - Bulletin for Technology and History Journal,2023',
+        category: 'Publication',
+    },
+    {
+        id: 69,
+        image: IJET,
+        title: 'Paper 22',
+        modal_heading:'Title -“Role of Block chain in Modernizing Food Supply Chain”',
+        modal_image:IJET,
+        details: ' Publication - Indian Journal of Technical Education (IJTE),2024',
+        category: 'Publication',
+    },
+    {
+        id: 70,
+        image: springer,
+        title: 'Paper 23',
+        modal_heading:'Title -“Ethanol-Powered Vehicles: Advancements in Flex-Fuel Technology and Supply Chain Integration”',
+        modal_image:springer,
+        details: ' Publication - Springer Proceedings, 2024',
+        category: 'Publication',
+    },
+
     // Publication section finished 
+
+    // Teaching and Learning started
     {
         id: 67,
         image: Work1,
@@ -742,9 +809,6 @@ export const projectsData = [
         details: '',
         category: 'Teaching and Learning',
     },
-
-    // Teaching and Learning started
-
 
     // Teaching and Learning ended
 
