@@ -6,8 +6,7 @@ const Data = () => {
         <h1 className="home__title">
         Priya Rakibe  
         </h1>
-        <h3 className="home__subtitle">Assistant Professor,</h3>
-        <h4>K.K.Wagh Institute of Engineering Education and Research,Nashik</h4>
+        <h3 className="home__subtitle">Asst. Professor, K.K.Wagh Institute of Engineering Education and Research, Nashik</h3>
         <p className="home__description">
             Leading with Passion: Innovation, Education, Transformation
         </p>
