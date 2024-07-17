@@ -506,7 +506,7 @@ export const projectsData = [
         details:  '',
         modal_image :story1,
         content:'',
-        category: 'Career Guidelines',
+        category: 'Career Guidance',
     },
     {
         id: 46,
@@ -516,7 +516,7 @@ export const projectsData = [
         details:  '',
         modal_image :story2,
         content:'',
-        category: 'Career Guidelines',
+        category: 'Career Guidance',
     },
     {
         id: 47,
@@ -526,7 +526,7 @@ export const projectsData = [
         details: '',
         modal_image :story3,
         content:'',
-        category: 'Career Guidelines',
+        category: 'Career Guidance',
     },
     // career giuded ended
 
@@ -686,6 +686,67 @@ export const projectsData = [
         category: 'Publication',
     },
     // Publication section finished 
+    {
+        id: 67,
+        image: Work1,
+        title: 'Web Technology',
+        modal_heading:'',
+        details: '',
+        category: 'Teaching and Learning',
+    },
+    {
+        id: 68,
+        image: Work1,
+        title: 'Computer Networks',
+        modal_heading:'',
+        details: '',
+        category: 'Teaching and Learning',
+    },
+    {
+        id: 69,
+        image: Work1,
+        title: 'Engineering Exploration',
+        modal_heading:'',
+        details: '',
+        category: 'Teaching and Learning',
+    },
+    {
+        id: 70,
+        image: Work1,
+        title: 'Programming in C',
+        modal_heading:'',
+        details: '',
+        category: 'Teaching and Learning',
+    },
+    {
+        id: 71,
+        image: Work1,
+        title: 'Programming in C++',
+        modal_heading:'',
+        details: '',
+        category: 'Teaching and Learning',
+    },
+    {
+        id: 72,
+        image: Work1,
+        title: 'Design and Analysis of Algorithms',
+        modal_heading:'',
+        details: '',
+        category: 'Teaching and Learning',
+    },
+    {
+        id: 73,
+        image: Work1,
+        title: 'Design Thinking & Project Based Learning',
+        modal_heading:'',
+        details: '',
+        category: 'Teaching and Learning',
+    },
+
+    // Teaching and Learning started
+
+
+    // Teaching and Learning ended
 
 ];
 
@@ -709,13 +770,13 @@ export const projectsNav = [
         name: 'Achievements',
     },
     {
-        name: 'Career Details',
-    },
-    {
-        name: 'Career Guidelines',
-    },
-    {
         name: 'Project Guided',
+    },
+    {
+        name: 'Career Guidance',
+    },
+    {
+        name:'Teaching and Learning',
     },
     {
         name: 'Patent & Copyrights',
