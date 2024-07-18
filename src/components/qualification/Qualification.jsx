@@ -109,7 +109,7 @@ const Qualification = () => {
                     
                     <div>
                         <h3 className="qualification__title">Assistant Professor</h3>
-                        <span className="qualifiction__subtitle">K. K. Wagh Educational Society</span>
+                        <span className="qualifiction__subtitle">K. K. Wagh Education Society, Nashik</span>
 
                         <div className="qualification__calender">
                             <i className="uil uil-calender-alt"></i>2013-Present
