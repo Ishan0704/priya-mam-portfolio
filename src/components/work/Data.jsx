@@ -20,20 +20,24 @@ import paper9 from '../../assets/Publication_images/Paper9.png';
 import paper10 from '../../assets/Publication_images/Paper10.png';
 import paper14 from '../../assets/Publication_images/Paper14.png';
 
-import hardware from '../../assets/Achievements-images/Hardware.png';
-import software from '../../assets/Achievements-images/software.png';
-import appreciation from '../../assets/Achievements-images/Appreciation.png';
-import socialMedia from '../../assets/Achievements-images/social-media.png';
-import unesco from '../../assets/Achievements-images/unesco.png';
-import eyecontact from '../../assets/Achievements-images/eye-contact.png';
-import digitalIndia from '../../assets/Achievements-images/digitalIndia.png';
-import sunhacks from '../../assets/Achievements-images/sunhacks.png';
-import mahindra from '../../assets/Achievements-images/mahindra.png';
-import csi from '../../assets/Achievements-images/csi.png';
-import womenaward from '../../assets/Achievements-images/women-award.png';
-import techersHackathone from '../../assets/Achievements-images/techers hackathone.png';
-import eyantra from '../../assets/Achievements-images/eyantra.png';
-import consultancy from '../../assets/Achievements-images/consultancy.png';
+import img1 from '../../assets/Achievements-images/1.png';
+import img2 from '../../assets/Achievements-images/2.jpg';
+import img3 from '../../assets/Achievements-images/3.jpg';
+import img4 from '../../assets/Achievements-images/4.png';
+import img5 from '../../assets/Achievements-images/5.png';
+import img6 from '../../assets/Achievements-images/6.png';
+import img7 from '../../assets/Achievements-images/7.jpg';
+import img8 from '../../assets/Achievements-images/8.png';
+import img9 from '../../assets/Achievements-images/9.jpg';
+import img10 from '../../assets/Achievements-images/10.png';
+import img11 from '../../assets/Achievements-images/11.png';
+import img12 from '../../assets/Achievements-images/12.png';
+import img13 from '../../assets/Achievements-images/13.png';
+import img14 from '../../assets/Achievements-images/14.jpg';
+import img15 from '../../assets/Achievements-images/15.png';
+import img16 from '../../assets/Achievements-images/16.jpg';
+import img17 from '../../assets/Achievements-images/17.png';
+import img18 from '../../assets/Achievements-images/18.png';
 
 import godapark from '../../assets/projects/godapark.png';
 import deepblue from '../../assets/projects/deepblue.png';
@@ -69,155 +73,200 @@ import story1 from '../../assets/career guidelines/story1.png';
 import story2 from '../../assets/career guidelines/story2.png';
 import story3 from '../../assets/career guidelines/story3.png';
 
+// import certificate1 from '../../assets/certifications/certificate1.png';
+// import certificate2 from '../../assets/certifications/certificate2.png';
+// import certificate3 from '../../assets/certifications/certificate3.png';
+// import certificate4 from '../../assets/certifications/certificate4.png';
+
 
 export const projectsData = [
-   
-    //Achievements section started
+    //Awards & Recognization started
     {
-        id: 1,
-        image: appreciation,
-        title: 'Appreciation by AICTE members ',
-        modal_heading:'Appreciation by AICTE members',
+        id: 111,
+        image: img7,
+        title: 'Best paper award',
+        modal_heading:'Best paper award –Research Paper Presentation Competition organized by Dr. Moonje Institute of Management and Computer Studies,Nashik',
         details: '',
-        modal_image :appreciation,
+        modal_image :img7,
         content:'',
-        category: 'Achievements',
+        category: 'Awards & Recognizations',
     },
     {
-        id: 2,
-        image: hardware,
-        title: 'SMART INDIA HACKATHON 2022',
-        modal_heading:'WINNER OF SMART INDIA HACKATHON 2022',
-        details: ' Hardware Edition - Chennai ',
-        modal_image :hardware,
-        content:' Problem Statement by the Organization : Dept. of Science & Tech.(DoST),Ministry of Science and Technology',
-        category: 'Achievements',
+        id: 112,
+        image: img3,
+        title: '“ज्ञानज्योती सावित्रीबाई फुले आदर्श शिक्षिका पुरस्कार”',
+        modal_heading:'“ज्ञानज्योती सावित्रीबाई फुले आदर्श शिक्षिका पुरस्कार”, by DSF Foundation & SUDS Foundations,Nashik',
+        details: '',
+        modal_image :img3,
+        content:'',
+        category: 'Awards & Recognizations',
+    },
+    {
+        id: 113,
+        image: img4,
+        title: '“कर्तृत्ववान महिला सन्मान पुरस्कार”',
+        modal_heading:'“कर्तृत्ववान महिला सन्मान पुरस्कार” by K. K. Wagh Vidyabhavan and Junior College, B. Nagar, Tal. Niphad, Dist. Nashik',
+        details: '',
+        modal_image :img4,
+        content:'',
+        category: 'Awards & Recognizations',
+    },
+    {
+        id: 114,
+        image: img10,
+        title: 'Extra ordinary contribution as a judge',
+        modal_heading:'Felicitated for extra ordinary contribution as a judge in International Hackathon- “Sunhacks22”held at Sandip University in association with ESDS Software Solution Limited, Nashik (36 hours)',
+        details: '',
+        modal_image :img10,
+        content:'',
+        category: 'Awards & Recognizations',
+    },
+    {
+        id: 115,
+        image: img11,
+        title: 'contribution in SIH, Kumbhamela & Goda Park',
+        modal_heading:'Appreciated for the contribution (Idea, Guidance, implementation etc.) in – Nashik Smart City, Kumbhamela 27 Project – Goda Park – Based on Augmented reality and virtual reality',
+        details: '',
+        modal_image :img11,
+        content:'',
+        category: 'Awards & Recognizations',
+    },
+    {
+        id: 116,
+        image: img15,
+        title: 'extra ordinary contribution as a judge & mentor',
+        modal_heading:'Felicitated for extra ordinary contribution as a judge and mentor in project competition organized by LUB(Laghu Udyog Bharati) Nashik',
+        details: '',
+        modal_image :img15,
+        content:'',
+        category: 'Awards & Recognizations',
+    },
+    {
+        id: 117,
+        image: img16,
+        title: 'Change maker to bring hackathon culture',
+        modal_heading:'Felicitated for becoming change maker to bring hackathon culture and best mentor by KKWIEER, Nashik',
+        details: '',
+        modal_image :img16,
+        content:'',
+        category: 'Awards & Recognizations',
+    },
+    {
+        id: 118,
+        image: img18,
+        title: '“Supervisory Development Program 2022 & 2024”',
+        modal_heading:'Conducted “Supervisory Development Program 2022 & 2024” organized for the employees of Mahindra & Mahindra Ltd. Nashik by KKWIEER',
+        details: '',
+        modal_image :img18,
+        content:'',
+        category: 'Awards & Recognizations',
+    },
+    {
+        id: 119,
+        image: img12,
+        title: 'Finalist of Teacher’s Hackathon',
+        modal_heading:'Finalist of Teacher’s Hackathon(T-L-E :Teaching-Learning-Evaluation) exclusively organized for teachers by Symbiosis International(Deemed University)',
+        details: '',
+        modal_image :img12,
+        content:'',
+        category: 'Awards & Recognizations',
+    },
+    {
+        id: 120,
+        image: img13,
+        title: 'contribution to Quality objectives',
+        modal_heading:'Felicitated for contribution to Quality objectives by IQAC(Internal Quality Assurance Cell),KKWIEER',
+        details: '',
+        modal_image :img13,
+        content:'',
+        category: 'Awards & Recognizations',
+    },
+    //Awards & Recognizations started
+    {
+        id: 121,
+        image: img1,
+        title: 'Appreciated as a mentor in SIH 22',
+        modal_heading:'Appreciated by AICTE(All India Council for Technical Education), Ministry of Education, MoE’s Innovation Cell for exceptional contribution as a mentor in Smart India Hackathon(World’s Largest Innovation Model)22',
+        details: '',
+        modal_image :img1,
+        content:'',
+        category: 'Awards & Recognizations',
+    },
+    {
+        id: 122,
+        image: img2,
+        title: '“Best Research Work in Progress” award',
+        modal_heading:'Received “Best Research Work in Progress” award by ACM(Association for Computing Machinery) India and SPPU(Savitribai Phule Pune University),Pune',
+        details: '',
+        modal_image :img2,
+        content:'',
+        category: 'Awards & Recognizations',
+    },
+    
+   
+    {
+        id: 123,
+        image: img5,
+        title: 'Best paper award ',
+        modal_heading:'Best paper award - International Conference on Gender Equality & Women Empowerment, organised by Department of Electronics & Telecommunication PVG College of Engineering and Technology Pune, In association with Department of Education & Extension Savitribai Phule Pune University and Rajasthan Sociological Association.',
+        details: '',
+        modal_image :img5,
+        content:'',
+        category: 'Awards & Recognizations',
+    },
+    {
+        id: 124,
+        image: img6,
+        title: 'Best paper award',
+        modal_heading:'Best paper award –International Conference on Recent Trends and Advancement in Computing Technologies organized by AVCOE, Sangamner ',
+        details: '',
+        modal_image :img6,
+        content:'',
+        category: 'Awards & Recognizations',
     },
     
     {
-        id: 3,
-        image: software,
-        title: 'SMART INDIA HACKATHON 2022',
-        modal_heading:'WINNER OF SMART INDIA HACKATHON 2022',
-        details: ' Softeware Edition - Chennai ',
-        modal_image :software,
-        content:' Problem Statement by the Organization : Ministry of Electronics and Information Technology(MEITY)',
-        category: 'Achievements',
-    },
-    {
-        id: 4,
-        image: socialMedia,
-        title: 'Most Active Team On Social Media',
-        modal_heading:'Appreciation For Most Active Team On Social Media',
+        id: 125,
+        image: img8,
+        title: 'consecutively three times Winner',
+        modal_heading:'Winner consecutively three times(Hatrik) under Professional Category in Essay Competition organized by Computer Society of India , Nashik chapter', 
         details: '',
-        modal_image :socialMedia,
+        modal_image :img8,
         content:'',
-        category: 'Achievements',
+        category: 'Awards & Recognizations',
     },
     {
-        id: 5,
-        image: unesco,
-        title: 'Finalist of UNESCO INDIA',
-        modal_heading:'Finalist of UNESCO INDIA',
+        id: 126,
+        image: img9,
+        title: 'Top Performing Mentor by NPTEL',
+        modal_heading:`Recognized as Top Performing Mentor by NPTEL(National Programme on Technology Enhanced Learning - India's largest technical dissemination program)`,
         details: '',
-        modal_image :unesco,
+        modal_image :img9,
         content:'',
-        category: 'Achievements',
+        category: 'Awards & Recognizations',
     },
+    
     {
-        id: 6,
-        image: digitalIndia,
-        title: 'आत्मनिर्भर भारत',
-        modal_heading:'आत्मनिर्भर भारत / Digital India Initiatives',
+        id: 127,
+        image: img14,
+        title: 'Zero Investment Innovations for Education',
+        modal_heading:'Appreciated for submitting zero budget innovative and creative teaching ideas/ methodologies adopted by the teachers to make school a better learning place for their students. Organized by: Sri Aurobindo Society - ZIIEI Zero Investment Innovations for Education Initiatives (ZIIEI)',
         details: '',
-        modal_image :digitalIndia,
-        content:'A small contribution for आत्मनिर्भर भारत through Digital India Objectives by TE Computer Course Web Technology more than 25 projects guided for Atama Nirthar Bharat /Digital India Initiatives 25 projects guided for institute/organization/shop/supermarket/NGO/College etc.',
-        category: 'Achievements',
-    },
-    {
-        id: 7,
-        image: sunhacks,
-        title: ' Extra ordinary contribution as a judge',
-        modal_heading:'Felicitated for extra ordinary contribution as a judge in International Hackathon-“Sunhacks22”',
-        details: 'Held at - Sandip University in association with ESDS Software Solution Limited, Nashik',
-        modal_image :sunhacks,
+        modal_image :img14,
         content:'',
-        category: 'Achievements',
+        category: 'Awards & Recognizations',
     },
     {
-        id: 8,
-        image: mahindra,
-        title: 'Industry Training',
-        modal_heading:'Industry Training for employees of Mahindra & Mahindra Ltd. Nashik',
-        details: 'Organized by -KKWIEER, Nashik',
-        modal_image :mahindra,
-        content:'',
-        category: 'Achievements',
-    },
-    {
-        id: 9,
-        image: csi,
-        title: 'Computer Sociery Of INDIA',
-        modal_heading:'Computer Sociery Of INDIA',
+        id: 128,
+        image: img17,
+        title: 'Recognized as a Star Reviewer',
+        modal_heading:'Recognized as a Star Reviewer -for the International Conference(Scopus indexed) on Transformation in Engineering Education 2024,held at KLE Technological University,Hubballi ,India from 2-4 Jan 2024.',
         details: '',
-        modal_image :csi,
+        modal_image :img17,
         content:'',
-        category: 'Achievements',
+        category: 'Awards & Recognizations',
     },
-    {
-        id: 10,
-        image: womenaward,
-        title: 'कर्तृत्ववान महिला सम्मान',
-        modal_heading:'“कर्तृत्ववान महिला सम्मान”',
-        details: 'By K.K.WAGH Vidyabhavan and Junior College',
-        modal_image :womenaward,
-        content:'',
-        category: 'Achievements',
-    },
-    {
-        id: 11,
-        image: techersHackathone,
-        title: 'Finalist of techer\'s Hackathone',
-        modal_heading:'Finalist of Teacher’s Hackathon(T-L-E :Teaching-Learning Evaluation) ',
-        details:  'By Symbiosis International(Deemed University)',
-        modal_image :techersHackathone,
-        content:'',
-        category: 'Achievements',
-    },
-    {
-        id: 12,
-        image: eyantra,
-        title: 'e-Yantra IIT-Bombay',
-        modal_heading:'Qualifying for the  Innovation Sprint of e-Yantra Innovation challenge 2022-2023',
-        details:  'By IIT-Bombay',
-        modal_image :eyantra,
-        content:'',
-        category: 'Achievements',
-    },
-    {
-        id: 13,
-        image: consultancy,
-        title: 'consultancy in the area Web Development',
-        modal_heading:'Received consultancy in the area Web Development',
-        details:  'By Divisional Commissioner Office Nashik with Rs. 2.65Lakhs',
-        modal_image :consultancy,
-        content:'',
-        category: 'Achievements',
-    },
-    // Achievements category finished
-
-    //petants category Started
-    {
-        id: 14,
-        image: eyecontact,
-        title: 'Aligning eye contact in display screens',
-        modal_heading:'Title : A system and method for aligning eye contact in display screens during online meeting',
-        details: '',
-        modal_image :eyecontact,
-        content:'Application Number :TEMP/E-1/69389/2022-MUM (202221059988)',
-        category: 'Patent & Copyrights',
-    },
-    // patents category end 
+    // Awards & Recognizations ended
 
     // Project Guided started
     {
@@ -774,6 +823,42 @@ export const projectsData = [
     },
     // Teaching and Learning ended
 
+    //Certifications started
+    // {
+    //     id: 77,
+    //     image: certificate1,
+    //     title: '',
+    //     modal_heading:'',
+    //     modal_image :certificate1,
+    //     details: '',
+    //     category: 'Certifications',
+    // },
+    // {
+    //     id: 77,
+    //     image: certificate2,
+    //     title: '',
+    //     modal_heading:'',
+    //     details: '',
+    //     category: 'Certifications',
+    // },
+    // {
+    //     id: 77,
+    //     image: certificate3,
+    //     title: '',
+    //     modal_heading:'',
+    //     details: '',
+    //     category: 'Certifications',
+    // },
+    // {
+    //     id: 77,
+    //     image: certificate4,
+    //     title: '',
+    //     modal_heading:'',
+    //     details: '',
+    //     category: 'Certifications',
+    // },
+    //Certifications ended
+
 ];
 
 export const projectsNav = [
@@ -787,24 +872,24 @@ export const projectsNav = [
         name: 'Publications',
     },
     {
-        name: 'Social',
-    },
-    {
         name: 'Certifications',
     },
     {
-        name: 'Achievements',
-    },
-    {
-        name: 'Project Guided',
+        name: 'Social & Other',
     },
     {
         name: 'Career Guidance',
     },
     {
-        name: 'Teaching & Learning',
+        name: 'Project Guided',
     },
     {
         name: 'Patent & Copyrights',
+    },
+    {
+        name: 'Teaching & Learning',
+    },
+    {
+        name: 'Awards & Recognizations',
     },
 ];
