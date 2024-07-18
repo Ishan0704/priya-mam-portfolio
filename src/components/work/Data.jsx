@@ -558,7 +558,7 @@ export const projectsData = [
         modal_heading:'Title - “Providing adaptable curriculum enrichment through Teaching-Learning-Evaluation”',
         modal_image :ICTIEE,
         details: 'Publication - Journal of Engineering Education and Transformations,2023',
-        category: 'Publication',
+        category: 'Publications',
     },
     {
         id: 49,
@@ -567,7 +567,7 @@ export const projectsData = [
         modal_heading:'Title -“Future of Self Driving Vehicles in India”',
         modal_image: IJRAR,
         details: 'Publication - International Journal of Research and Analytical Reviews (IJRAR), 2022 ',
-        category: 'Publication',
+        category: 'Publications',
     },
     {
         id: 50,
@@ -576,7 +576,7 @@ export const projectsData = [
         modal_heading:'Title -“Data transmission for underwater communication using Li-Fi”',
         modal_image: IJRAR,
         details: 'Publication - International Journal of  Research and Analytical Reviews (IJRAR), 2022',
-        category: 'Publication',
+        category: 'Publications',
     },
     {
         id: 51,
@@ -585,7 +585,7 @@ export const projectsData = [
         modal_heading:'Title -“Role of educational institutions for Atmanirbhar Bharat ”',
         modal_image: ICTACT,
         details: 'Publication - ICNHCFE 2023',
-        category: 'Publication',
+        category: 'Publications',
     },
     
     {
@@ -595,7 +595,7 @@ export const projectsData = [
         modal_heading:'Title -“5G Frameworks &amp; Network Management using AI”,',
         modal_image: Work1,
         details: 'Publication - AIP,2024 ',
-        category: 'Publication',
+        category: 'Publications',
     },
     {
         id: 54,
@@ -604,7 +604,7 @@ export const projectsData = [
         modal_heading:'Title - “Review Paper on Crowd Management Using Mob-Analyzer”',
         modal_image:JETISM ,
         details: 'Publication - Journal Of Electronics Information Technology Science and Management (JEITSM),2022',
-        category: 'Publication',
+        category: 'Publications',
     },
     {
         id: 60,
@@ -615,7 +615,7 @@ export const projectsData = [
         details: 'Publication - International Research Journal of Engineering and Technology(IRJET) ,2020',
         link_caption:'Read More',
         link:'https://www.irjet.net/archives/V7/i3/IRJET-V7I3599.pdf',
-        category: 'Publication',
+        category: 'Publications',
     },
     {
         id: 58,
@@ -624,7 +624,7 @@ export const projectsData = [
         modal_heading:'Title -“Development of Recommender System based on Meta-Algorithmic Approach”',
         modal_image: CPGCON,
         details: 'Publication -  CPGCON 16  ',
-        category: 'Publication',
+        category: 'Publications',
     },
     {
         id: 62,
@@ -635,7 +635,7 @@ export const projectsData = [
         details: 'Publication - International Journal of Advanced Research in Computer and Communication Engineering (IJARCCE), 2016 ',
         link_caption:'Read More',
         link:'https://ijarcce.com/upload/2016/june-16/IJARCCE%20182.pdf',
-        category: 'Publication',
+        category: 'Publications',
     },
     {
         id: 63,
@@ -646,7 +646,7 @@ export const projectsData = [
         details: 'Publication - International Journal of Advanced Research in Computer and Communication Engineering (IJARCCE), 2016',
         link_caption:'Read More',
         link:'https://www.ijarcce.com/upload/2016/july-16/IJARCCE%2070.pdf',
-        category: 'Publication',
+        category: 'Publications',
     },
     {
         id: 64,
@@ -655,7 +655,7 @@ export const projectsData = [
         modal_heading:'Title -“Opinion Mining - The Customer Review System”',
         modal_image:ICRTET,
         details: 'Publication -  ICRTET,2014 ',
-        category: 'Publication',
+        category: 'Publications',
     },
     {
         id: 65,
@@ -664,7 +664,7 @@ export const projectsData = [
         modal_heading:'Title - “Face identification based on lip movement features”',
         modal_image:IJRETM,
         details: 'Publication - International Journal of Research in Engineering Technology and Management, (IJRETM),2014',
-        category: 'Publication',
+        category: 'Publications',
     },
     {
         id: 66,
@@ -673,7 +673,7 @@ export const projectsData = [
         modal_heading:'Title -“Emerging AI-Enable security for Industry 4.0”',
         modal_image:IJAET,
         details: ' Publication - International Journal of Applied Engineering and Technology, 2023',
-        category: 'Publication',
+        category: 'Publications',
     },
     {
         id: 67,
@@ -684,7 +684,7 @@ export const projectsData = [
         details: ' Publication - MS Journal,2024',
         link_caption:'Read More',
         link:'https://drive.google.com/file/d/1DOdDIwEquUrzMPOuRNBXsZl7f1BkLuI6/view',
-        category: 'Publication',
+        category: 'Publications',
     },
     {
         id: 68,
@@ -693,7 +693,7 @@ export const projectsData = [
         modal_heading:'Title -“Ramrajya in Kaliyug: Find your inner Ram with modern Astra (Technology)”',
         modal_image:BTH,
         details: ' Publication - Bulletin for Technology and History Journal,2023',
-        category: 'Publication',
+        category: 'Publications',
     },
     {
         id: 69,
@@ -702,7 +702,7 @@ export const projectsData = [
         modal_heading:'Title -“Role of Block chain in Modernizing Food Supply Chain”',
         modal_image:IJET,
         details: ' Publication - Indian Journal of Technical Education(IJTE),2024',
-        category: 'Publication',
+        category: 'Publications',
     },
     {
         id: 70,
@@ -711,7 +711,7 @@ export const projectsData = [
         modal_heading:'Title -“Ethanol-Powered Vehicles: Advancements in Flex-Fuel Technology and Supply Chain Integration”',
         modal_image:springer,
         details: ' Publication - Springer Proceedings, 2024',
-        category: 'Publication',
+        category: 'Publications',
     },
     // Publication section finished 
 
@@ -722,7 +722,7 @@ export const projectsData = [
         title: 'Web Technology',
         modal_heading:'',
         details: '',
-        category: 'Teaching and Learning',
+        category: 'Teaching & Learning',
     },
     {
         id: 72,
@@ -730,7 +730,7 @@ export const projectsData = [
         title: 'Computer Networks',
         modal_heading:'',
         details: '',
-        category: 'Teaching and Learning',
+        category: 'Teaching & Learning',
     },
     {
         id: 73,
@@ -738,7 +738,7 @@ export const projectsData = [
         title: 'Engineering Exploration',
         modal_heading:'',
         details: '',
-        category: 'Teaching and Learning',
+        category: 'Teaching & Learning',
     },
     {
         id: 74,
@@ -746,7 +746,7 @@ export const projectsData = [
         title: 'Programming in C',
         modal_heading:'',
         details: '',
-        category: 'Teaching and Learning',
+        category: 'Teaching & Learning',
     },
     {
         id: 75,
@@ -754,7 +754,7 @@ export const projectsData = [
         title: 'Programming in C++',
         modal_heading:'',
         details: '',
-        category: 'Teaching and Learning',
+        category: 'Teaching & Learning',
     },
     {
         id: 76,
@@ -762,7 +762,7 @@ export const projectsData = [
         title: 'Design and Analysis of Algorithms',
         modal_heading:'',
         details: '',
-        category: 'Teaching and Learning',
+        category: 'Teaching & Learning',
     },
     {
         id: 77,
@@ -770,7 +770,7 @@ export const projectsData = [
         title: 'Design Thinking & Project Based Learning',
         modal_heading:'',
         details: '',
-        category: 'Teaching and Learning',
+        category: 'Teaching & Learning',
     },
     // Teaching and Learning ended
 
@@ -784,13 +784,13 @@ export const projectsNav = [
         name: 'News',
     },
     {
-        name: 'Publication',
+        name: 'Publications',
     },
     {
         name: 'Social',
     },
     {
-        name: 'Certificates',
+        name: 'Certifications',
     },
     {
         name: 'Achievements',
@@ -802,7 +802,7 @@ export const projectsNav = [
         name: 'Career Guidance',
     },
     {
-        name:'Teaching and Learning',
+        name: 'Teaching & Learning',
     },
     {
         name: 'Patent & Copyrights',
