@@ -19,7 +19,7 @@ const Modal = ({ show, onClose, project }) => {
         <p className='content'>{project.content}</p>
         
         <div className='paper-link'> 
-          <a href={project.link} target='_blank' >Read More</a>
+          <a href={project.link} target='_blank' >{project.link_caption}</a>
         </div>
       </div>
     </div>
