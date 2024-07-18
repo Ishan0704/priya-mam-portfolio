@@ -14,7 +14,11 @@ import MSJ from '../../assets/Publication_images/MSJ.jpeg';
 import BTH from '../../assets/Publication_images/BTH.png';
 import IJET from '../../assets/Publication_images/IJTE.png';
 import springer from '../../assets/Publication_images/Springer.jpeg';
-import JETISM from '../../assets/Publication_images/JEITSM.png'
+import JETISM from '../../assets/Publication_images/JEITSM.png';
+import paper7 from '../../assets/Publication_images/Paper7.png';
+import paper9 from '../../assets/Publication_images/Paper9.png';
+import paper10 from '../../assets/Publication_images/Paper10.png';
+import paper14 from '../../assets/Publication_images/Paper14.png';
 
 import hardware from '../../assets/Achievements-images/Hardware.png';
 import software from '../../assets/Achievements-images/software.png';
@@ -604,11 +608,12 @@ export const projectsData = [
     },
     {
         id: 60,
-        image: IRJET,
+        image: paper7,
         title: 'Paper 7',
         modal_heading:'Title -“Technology and COVID – 19”',
-        modal_image:IRJET,
+        modal_image: paper7,
         details: 'Publication - International Research Journal of Engineering and Technology(IRJET) ,2020',
+        link:'https://www.irjet.net/archives/V7/i3/IRJET-V7I3599.pdf',
         category: 'Publication',
     },
     {
@@ -622,20 +627,22 @@ export const projectsData = [
     },
     {
         id: 62,
-        image: IJARCCE,
+        image: paper9,
         title: 'Paper 9',
         modal_heading:'Title - “Meta-Algorithmic approach for development of recommender system”',
-        modal_image:IJARCCE,
+        modal_image:paper9,
         details: 'Publication - International Journal of Advanced Research in Computer and Communication Engineering (IJARCCE), 2016 ',
+        link:'https://ijarcce.com/upload/2016/june-16/IJARCCE%20182.pdf',
         category: 'Publication',
     },
     {
         id: 63,
-        image: IJARCCE,
+        image: paper10,
         title: 'Paper 10',
         modal_heading:'Title - “A Survey on Recommender System”',
-        modal_image:IJARCCE,
+        modal_image:paper10,
         details: 'Publication - International Journal of Advanced Research in Computer and Communication Engineering (IJARCCE), 2016',
+        link:'https://www.ijarcce.com/upload/2016/july-16/IJARCCE%2070.pdf',
         category: 'Publication',
     },
     {
@@ -667,11 +674,12 @@ export const projectsData = [
     },
     {
         id: 67,
-        image: MSJ,
+        image: paper14,
         title: 'Paper 14',
         modal_heading:'Title -“Review on ML for recognition of Chat - GPT generated text”',
-        modal_image:MSJ,
+        modal_image:paper14,
         details: ' Publication - MS Journal,2024',
+        link:'https://drive.google.com/file/d/1DOdDIwEquUrzMPOuRNBXsZl7f1BkLuI6/view',
         category: 'Publication',
     },
     {

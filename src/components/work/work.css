@@ -123,8 +123,13 @@
     margin-top: var(--mb-2);
   }
   
-  
-  
+  .paper-link{
+   padding-top: 1rem; 
+  }
+
+  .paper-link > a{
+    color: rgb(0, 162, 211);
+   }
   
 
 /*=============== BREAKPOINTS ===============*/

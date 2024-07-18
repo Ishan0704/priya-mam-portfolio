@@ -17,6 +17,10 @@ const Modal = ({ show, onClose, project }) => {
           <img className='modal-image' src={project.modal_image} alt="Modal-Image"/> 
         </div>
         <p className='content'>{project.content}</p>
+        
+        <div className='paper-link'> 
+          <a href={project.link} target='_blank' >Read More</a>
+        </div>
       </div>
     </div>
   );
