@@ -73,16 +73,22 @@ import story1 from '../../assets/career guidelines/story1.png';
 import story2 from '../../assets/career guidelines/story2.png';
 import story3 from '../../assets/career guidelines/story3.png';
 
-// import certificate1 from '../../assets/certifications/certificate1.png';
-// import certificate2 from '../../assets/certifications/certificate2.png';
-// import certificate3 from '../../assets/certifications/certificate3.png';
-// import certificate4 from '../../assets/certifications/certificate4.png';
+import patent_copyright1 from '../../assets/patent-&-copyright/img1.png';
+import patent_copyright2 from '../../assets/patent-&-copyright/img2.png';
 
+import certificate1 from '../../assets/certifications/img1.png';
+import certificate2 from '../../assets/certifications/img2.png';
+import certificate3 from '../../assets/certifications/img3.png';
+import certificate4 from '../../assets/certifications/img4.png';
+import certificate5 from '../../assets/certifications/img5.png';
+import certificate6 from '../../assets/certifications/img6.png';
+import certificate7 from '../../assets/certifications/img7.png';
+import certificate8 from '../../assets/certifications/img8.png';
 
 export const projectsData = [
     //Awards & Recognization started
     {
-        id: 111,
+        id: 1,
         image: img7,
         title: 'Best paper award',
         modal_heading:'Best paper award –Research Paper Presentation Competition organized by Dr. Moonje Institute of Management and Computer Studies,Nashik',
@@ -92,7 +98,7 @@ export const projectsData = [
         category: 'Awards & Recognizations',
     },
     {
-        id: 112,
+        id: 2,
         image: img3,
         title: '“ज्ञानज्योती सावित्रीबाई फुले आदर्श शिक्षिका पुरस्कार”',
         modal_heading:'“ज्ञानज्योती सावित्रीबाई फुले आदर्श शिक्षिका पुरस्कार”, by DSF Foundation & SUDS Foundations,Nashik',
@@ -102,7 +108,7 @@ export const projectsData = [
         category: 'Awards & Recognizations',
     },
     {
-        id: 113,
+        id: 3,
         image: img4,
         title: '“कर्तृत्ववान महिला सन्मान पुरस्कार”',
         modal_heading:'“कर्तृत्ववान महिला सन्मान पुरस्कार” by K. K. Wagh Vidyabhavan and Junior College, B. Nagar, Tal. Niphad, Dist. Nashik',
@@ -112,7 +118,7 @@ export const projectsData = [
         category: 'Awards & Recognizations',
     },
     {
-        id: 114,
+        id: 4,
         image: img10,
         title: 'Extra ordinary contribution as a judge',
         modal_heading:'Felicitated for extra ordinary contribution as a judge in International Hackathon- “Sunhacks22”held at Sandip University in association with ESDS Software Solution Limited, Nashik (36 hours)',
@@ -122,7 +128,7 @@ export const projectsData = [
         category: 'Awards & Recognizations',
     },
     {
-        id: 115,
+        id: 5,
         image: img11,
         title: 'contribution in SIH, Kumbhamela & Goda Park',
         modal_heading:'Appreciated for the contribution (Idea, Guidance, implementation etc.) in – Nashik Smart City, Kumbhamela 27 Project – Goda Park – Based on Augmented reality and virtual reality',
@@ -132,7 +138,7 @@ export const projectsData = [
         category: 'Awards & Recognizations',
     },
     {
-        id: 116,
+        id: 6,
         image: img15,
         title: 'extra ordinary contribution as a judge & mentor',
         modal_heading:'Felicitated for extra ordinary contribution as a judge and mentor in project competition organized by LUB(Laghu Udyog Bharati) Nashik',
@@ -142,7 +148,7 @@ export const projectsData = [
         category: 'Awards & Recognizations',
     },
     {
-        id: 117,
+        id: 7,
         image: img16,
         title: 'Change maker to bring hackathon culture',
         modal_heading:'Felicitated for becoming change maker to bring hackathon culture and best mentor by KKWIEER, Nashik',
@@ -152,7 +158,7 @@ export const projectsData = [
         category: 'Awards & Recognizations',
     },
     {
-        id: 118,
+        id: 8,
         image: img18,
         title: '“Supervisory Development Program 2022 & 2024”',
         modal_heading:'Conducted “Supervisory Development Program 2022 & 2024” organized for the employees of Mahindra & Mahindra Ltd. Nashik by KKWIEER',
@@ -162,7 +168,7 @@ export const projectsData = [
         category: 'Awards & Recognizations',
     },
     {
-        id: 119,
+        id: 9,
         image: img12,
         title: 'Finalist of Teacher’s Hackathon',
         modal_heading:'Finalist of Teacher’s Hackathon(T-L-E :Teaching-Learning-Evaluation) exclusively organized for teachers by Symbiosis International(Deemed University)',
@@ -172,7 +178,7 @@ export const projectsData = [
         category: 'Awards & Recognizations',
     },
     {
-        id: 120,
+        id: 10,
         image: img13,
         title: 'contribution to Quality objectives',
         modal_heading:'Felicitated for contribution to Quality objectives by IQAC(Internal Quality Assurance Cell),KKWIEER',
@@ -183,7 +189,7 @@ export const projectsData = [
     },
     //Awards & Recognizations started
     {
-        id: 121,
+        id: 11,
         image: img1,
         title: 'Appreciated as a mentor in SIH 22',
         modal_heading:'Appreciated by AICTE(All India Council for Technical Education), Ministry of Education, MoE’s Innovation Cell for exceptional contribution as a mentor in Smart India Hackathon(World’s Largest Innovation Model)22',
@@ -193,7 +199,7 @@ export const projectsData = [
         category: 'Awards & Recognizations',
     },
     {
-        id: 122,
+        id: 12,
         image: img2,
         title: '“Best Research Work in Progress” award',
         modal_heading:'Received “Best Research Work in Progress” award by ACM(Association for Computing Machinery) India and SPPU(Savitribai Phule Pune University),Pune',
@@ -202,10 +208,8 @@ export const projectsData = [
         content:'',
         category: 'Awards & Recognizations',
     },
-    
-   
     {
-        id: 123,
+        id: 13,
         image: img5,
         title: 'Best paper award ',
         modal_heading:'Best paper award - International Conference on Gender Equality & Women Empowerment, organised by Department of Electronics & Telecommunication PVG College of Engineering and Technology Pune, In association with Department of Education & Extension Savitribai Phule Pune University and Rajasthan Sociological Association.',
@@ -215,7 +219,7 @@ export const projectsData = [
         category: 'Awards & Recognizations',
     },
     {
-        id: 124,
+        id: 14,
         image: img6,
         title: 'Best paper award',
         modal_heading:'Best paper award –International Conference on Recent Trends and Advancement in Computing Technologies organized by AVCOE, Sangamner ',
@@ -226,7 +230,7 @@ export const projectsData = [
     },
     
     {
-        id: 125,
+        id: 15,
         image: img8,
         title: 'consecutively three times Winner',
         modal_heading:'Winner consecutively three times(Hatrik) under Professional Category in Essay Competition organized by Computer Society of India , Nashik chapter', 
@@ -236,7 +240,7 @@ export const projectsData = [
         category: 'Awards & Recognizations',
     },
     {
-        id: 126,
+        id: 16,
         image: img9,
         title: 'Top Performing Mentor by NPTEL',
         modal_heading:`Recognized as Top Performing Mentor by NPTEL(National Programme on Technology Enhanced Learning - India's largest technical dissemination program)`,
@@ -247,7 +251,7 @@ export const projectsData = [
     },
     
     {
-        id: 127,
+        id: 17,
         image: img14,
         title: 'Zero Investment Innovations for Education',
         modal_heading:'Appreciated for submitting zero budget innovative and creative teaching ideas/ methodologies adopted by the teachers to make school a better learning place for their students. Organized by: Sri Aurobindo Society - ZIIEI Zero Investment Innovations for Education Initiatives (ZIIEI)',
@@ -257,7 +261,7 @@ export const projectsData = [
         category: 'Awards & Recognizations',
     },
     {
-        id: 128,
+        id: 18,
         image: img17,
         title: 'Recognized as a Star Reviewer',
         modal_heading:'Recognized as a Star Reviewer -for the International Conference(Scopus indexed) on Transformation in Engineering Education 2024,held at KLE Technological University,Hubballi ,India from 2-4 Jan 2024.',
@@ -270,7 +274,7 @@ export const projectsData = [
 
     // Project Guided started
     {
-        id: 15,
+        id: 19,
         image: godapark,
         title: 'Project – Goda Park',
         modal_heading:'Title : Project – Goda Park – Based on Augmented reality and virtual reality (AR/VR) ',
@@ -280,7 +284,7 @@ export const projectsData = [
         category: 'Project Guided',
     },
     {
-        id: 16,
+        id: 20,
         image: deepblue,
         title: 'Project – Deep Blue',
         modal_heading:'Title : Project Deep Blue',
@@ -290,7 +294,7 @@ export const projectsData = [
         category: 'Project Guided',
     },
     {
-        id: 17,
+        id: 21,
         image: avishkar,
         title: 'Avishkar Research Competition',
         modal_heading:'Avishkar Research Competition',
@@ -300,7 +304,7 @@ export const projectsData = [
         category: 'Project Guided',
     },
     {
-        id: 18,
+        id: 22,
         image: inhouse,
         title: 'In-House(Society Level)Projects',
         modal_heading:'Involvement In-House(Society Level)Projects Development',
@@ -320,7 +324,7 @@ export const projectsData = [
 
 
     {
-        id: 19,
+        id: 23,
         image: article1,
         title: 'Article 1',
         modal_heading:'',
@@ -330,7 +334,7 @@ export const projectsData = [
         category: 'News',
     },
     {
-        id: 20,
+        id: 24,
         image: article2,
         title: 'Article 2',
         modal_heading:'',
@@ -340,7 +344,7 @@ export const projectsData = [
         category: 'News',
     },
     {
-        id: 21,
+        id: 25,
         image: article3,
         title: 'Article 3',
         modal_heading:'',
@@ -350,7 +354,7 @@ export const projectsData = [
         category: 'News',
     },
     {
-        id: 22,
+        id: 26,
         image: article8,
         title: 'Article 4',
         modal_heading:'',
@@ -359,9 +363,8 @@ export const projectsData = [
         content:'',
         category: 'News',
     },
-    // 23 id is not assigned
     {
-        id: 24,
+        id: 27,
         image: article5,
         title: 'Article 5',
         modal_heading:'',
@@ -371,7 +374,7 @@ export const projectsData = [
         category: 'News',
     },
     {
-        id: 25,
+        id: 28,
         image: article6,
         title: 'Article 6',
         modal_heading:'',
@@ -381,7 +384,7 @@ export const projectsData = [
         category: 'News',
     },
     {
-        id: 26,
+        id: 29,
         image: article7,
         title: 'Article 7',
         modal_heading:'',
@@ -391,7 +394,7 @@ export const projectsData = [
         category: 'News',
     },
     {
-        id: 27,
+        id: 30,
         image: article4,
         title: 'Article 8',
         modal_heading:'',
@@ -401,7 +404,7 @@ export const projectsData = [
         category: 'News',
     },
     {
-        id: 28,
+        id: 31,
         image: article9,
         title: 'Article 9',
         modal_heading:'',
@@ -411,7 +414,7 @@ export const projectsData = [
         category: 'News',
     },
     {
-        id: 29,
+        id: 32,
         image: article10,
         title: 'Article 10',
         modal_heading:'',
@@ -421,7 +424,7 @@ export const projectsData = [
         category: 'News',
     },
     {
-        id: 30,
+        id: 33,
         image: article11,
         title: 'Article 11',
         modal_heading:'',
@@ -431,7 +434,7 @@ export const projectsData = [
         category: 'News',
     },
     {
-        id: 31,
+        id: 34,
         image: article12,
         title: 'Article 12',
         modal_heading:'',
@@ -441,7 +444,7 @@ export const projectsData = [
         category: 'News',
     },
     {
-        id: 32,
+        id: 35,
         image: article13,
         title: 'Article 13',
         modal_heading:'',
@@ -451,7 +454,7 @@ export const projectsData = [
         category: 'News',
     },
     {
-        id: 33,
+        id: 36,
         image: article14,
         title: 'Article 14',
         modal_heading:'',
@@ -461,7 +464,7 @@ export const projectsData = [
         category: 'News',
     },
     {
-        id: 35,
+        id: 37,
         image: article16,
         title: 'Article 15',
         modal_heading:'',
@@ -471,7 +474,7 @@ export const projectsData = [
         category: 'News',
     },
     {
-        id: 34,
+        id: 38,
         image: article15,
         title: 'Article 16',
         modal_heading:'',
@@ -481,7 +484,7 @@ export const projectsData = [
         category: 'News',
     },
     {
-        id: 36,
+        id: 39,
         image: article17,
         title: 'Article 17',
         modal_heading:'',
@@ -491,7 +494,7 @@ export const projectsData = [
         category: 'News',
     },
     {
-        id: 37,
+        id: 40,
         image: article21,
         title: 'Article 18',
         modal_heading:'',
@@ -505,7 +508,7 @@ export const projectsData = [
     // Article 8 & 4 are interchanged
     // Article 15 and 16 are re-arranged
     {
-        id: 38,
+        id: 41,
         image: article20,
         title: 'Article 19',
         modal_heading:'',
@@ -515,7 +518,7 @@ export const projectsData = [
         category: 'News',
     },
     {
-        id: 39,
+        id: 42,
         image: article19,
         title: 'Article 20',
         modal_heading:'',
@@ -525,7 +528,7 @@ export const projectsData = [
         category: 'News',
     },
     {
-        id: 40,
+        id: 43,
         image: article18,
         title: 'Article 21',
         modal_heading:'',
@@ -535,7 +538,7 @@ export const projectsData = [
         category: 'News',
     },
     {
-        id: 41,
+        id: 44,
         image: article22,
         title: 'Article 22',
         modal_heading:'',
@@ -545,7 +548,7 @@ export const projectsData = [
         category: 'News',
     },
     {
-        id: 42,
+        id: 45,
         image: article23,
         title: 'Article 23',
         modal_heading:'',
@@ -555,7 +558,7 @@ export const projectsData = [
         category: 'News',
     },
     {
-        id: 43,
+        id: 46,
         image: article24,
         title: 'Article 24',
         modal_heading:'',
@@ -568,7 +571,7 @@ export const projectsData = [
 
     // career guided started 
     {
-        id: 45,
+        id: 47,
         image: story1,
         title: 'Success Story 1',
         modal_heading:'Success Story 1',
@@ -578,7 +581,7 @@ export const projectsData = [
         category: 'Career Guidance',
     },
     {
-        id: 46,
+        id: 48,
         image: story2,
         title: 'Success Story 2',
         modal_heading:'Success Story 2',
@@ -588,7 +591,7 @@ export const projectsData = [
         category: 'Career Guidance',
     },
     {
-        id: 47,
+        id: 49,
         image: story3,
         title: 'More Success Stories',
         modal_heading:'More Success Stories',
@@ -601,7 +604,7 @@ export const projectsData = [
 
     // Publication started
     {
-        id: 48,
+        id: 50,
         image: ICTIEE,
         title: 'Paper 1',
         modal_heading:'Title - “Providing adaptable curriculum enrichment through Teaching-Learning-Evaluation”',
@@ -610,7 +613,7 @@ export const projectsData = [
         category: 'Publications',
     },
     {
-        id: 49,
+        id: 51,
         image: IJRAR,
         title: 'Paper 2',
         modal_heading:'Title -“Future of Self Driving Vehicles in India”',
@@ -619,7 +622,7 @@ export const projectsData = [
         category: 'Publications',
     },
     {
-        id: 50,
+        id: 52,
         image: IJRAR,
         title: 'Paper 3',
         modal_heading:'Title -“Data transmission for underwater communication using Li-Fi”',
@@ -628,7 +631,7 @@ export const projectsData = [
         category: 'Publications',
     },
     {
-        id: 51,
+        id: 53,
         image: ICTACT,
         title: 'Paper 4',
         modal_heading:'Title -“Role of educational institutions for Atmanirbhar Bharat ”',
@@ -638,7 +641,7 @@ export const projectsData = [
     },
     
     {
-        id: 52,
+        id: 54,
         image: Work1,
         title: 'Paper 5',
         modal_heading:'Title -“5G Frameworks &amp; Network Management using AI”,',
@@ -647,7 +650,7 @@ export const projectsData = [
         category: 'Publications',
     },
     {
-        id: 54,
+        id: 55,
         image: JETISM,
         title: 'Paper 6',
         modal_heading:'Title - “Review Paper on Crowd Management Using Mob-Analyzer”',
@@ -656,7 +659,7 @@ export const projectsData = [
         category: 'Publications',
     },
     {
-        id: 60,
+        id: 56,
         image: paper7,
         title: 'Paper 7',
         modal_heading:'Title -“Technology and COVID – 19”',
@@ -667,7 +670,7 @@ export const projectsData = [
         category: 'Publications',
     },
     {
-        id: 58,
+        id: 57,
         image: CPGCON,
         title: 'Paper 8',
         modal_heading:'Title -“Development of Recommender System based on Meta-Algorithmic Approach”',
@@ -676,7 +679,7 @@ export const projectsData = [
         category: 'Publications',
     },
     {
-        id: 62,
+        id: 58,
         image: paper9,
         title: 'Paper 9',
         modal_heading:'Title - “Meta-Algorithmic approach for development of recommender system”',
@@ -687,7 +690,7 @@ export const projectsData = [
         category: 'Publications',
     },
     {
-        id: 63,
+        id: 59,
         image: paper10,
         title: 'Paper 10',
         modal_heading:'Title - “A Survey on Recommender System”',
@@ -698,7 +701,7 @@ export const projectsData = [
         category: 'Publications',
     },
     {
-        id: 64,
+        id: 60,
         image: ICRTET,
         title: 'Paper 11',
         modal_heading:'Title -“Opinion Mining - The Customer Review System”',
@@ -707,7 +710,7 @@ export const projectsData = [
         category: 'Publications',
     },
     {
-        id: 65,
+        id: 61,
         image: IJRETM,
         title: 'Paper 12',
         modal_heading:'Title - “Face identification based on lip movement features”',
@@ -716,7 +719,7 @@ export const projectsData = [
         category: 'Publications',
     },
     {
-        id: 66,
+        id: 62,
         image: IJAET,
         title: 'Paper 13',
         modal_heading:'Title -“Emerging AI-Enable security for Industry 4.0”',
@@ -725,7 +728,7 @@ export const projectsData = [
         category: 'Publications',
     },
     {
-        id: 67,
+        id: 63,
         image: paper14,
         title: 'Paper 14',
         modal_heading:'Title -“Review on ML for recognition of Chat - GPT generated text”',
@@ -736,7 +739,7 @@ export const projectsData = [
         category: 'Publications',
     },
     {
-        id: 68,
+        id: 64,
         image: BTH,
         title: 'Paper 15',
         modal_heading:'Title -“Ramrajya in Kaliyug: Find your inner Ram with modern Astra (Technology)”',
@@ -745,7 +748,7 @@ export const projectsData = [
         category: 'Publications',
     },
     {
-        id: 69,
+        id: 65,
         image: IJET,
         title: 'Paper 16',
         modal_heading:'Title -“Role of Block chain in Modernizing Food Supply Chain”',
@@ -754,7 +757,7 @@ export const projectsData = [
         category: 'Publications',
     },
     {
-        id: 70,
+        id: 66,
         image: springer,
         title: 'Paper 17',
         modal_heading:'Title -“Ethanol-Powered Vehicles: Advancements in Flex-Fuel Technology and Supply Chain Integration”',
@@ -766,7 +769,7 @@ export const projectsData = [
 
     // Teaching and Learning started
     {
-        id: 71,
+        id: 67,
         image: Work1,
         title: 'Web Technology',
         modal_heading:'',
@@ -774,7 +777,7 @@ export const projectsData = [
         category: 'Teaching & Learning',
     },
     {
-        id: 72,
+        id: 68,
         image: Work1,
         title: 'Computer Networks',
         modal_heading:'',
@@ -782,7 +785,7 @@ export const projectsData = [
         category: 'Teaching & Learning',
     },
     {
-        id: 73,
+        id: 69,
         image: Work1,
         title: 'Engineering Exploration',
         modal_heading:'',
@@ -790,7 +793,7 @@ export const projectsData = [
         category: 'Teaching & Learning',
     },
     {
-        id: 74,
+        id: 70,
         image: Work1,
         title: 'Programming in C',
         modal_heading:'',
@@ -798,7 +801,7 @@ export const projectsData = [
         category: 'Teaching & Learning',
     },
     {
-        id: 75,
+        id: 71,
         image: Work1,
         title: 'Programming in C++',
         modal_heading:'',
@@ -806,7 +809,7 @@ export const projectsData = [
         category: 'Teaching & Learning',
     },
     {
-        id: 76,
+        id: 72,
         image: Work1,
         title: 'Design and Analysis of Algorithms',
         modal_heading:'',
@@ -814,7 +817,7 @@ export const projectsData = [
         category: 'Teaching & Learning',
     },
     {
-        id: 77,
+        id: 73,
         image: Work1,
         title: 'Design Thinking & Project Based Learning',
         modal_heading:'',
@@ -823,42 +826,100 @@ export const projectsData = [
     },
     // Teaching and Learning ended
 
-    //Certifications started
-    // {
-    //     id: 77,
-    //     image: certificate1,
-    //     title: '',
-    //     modal_heading:'',
-    //     modal_image :certificate1,
-    //     details: '',
-    //     category: 'Certifications',
-    // },
-    // {
-    //     id: 77,
-    //     image: certificate2,
-    //     title: '',
-    //     modal_heading:'',
-    //     details: '',
-    //     category: 'Certifications',
-    // },
-    // {
-    //     id: 77,
-    //     image: certificate3,
-    //     title: '',
-    //     modal_heading:'',
-    //     details: '',
-    //     category: 'Certifications',
-    // },
-    // {
-    //     id: 77,
-    //     image: certificate4,
-    //     title: '',
-    //     modal_heading:'',
-    //     details: '',
-    //     category: 'Certifications',
-    // },
-    //Certifications ended
+    //Copyright and patent section started
+    {
+        id: 74,
+        image: patent_copyright1,
+        title: 'Patent & Copyrights',
+        modal_heading:'',
+        modal_image: patent_copyright1,
+        details: '',
+        category: 'Patent & Copyrights',
+    },
+    {
+        id: 75,
+        image: patent_copyright2,
+        title: 'Patent & Copyrights',
+        modal_heading:'',
+        modal_image: patent_copyright2,
+        details: '',
+        category: 'Patent & Copyrights',
+    },
+    //Copyright and patent section ended
 
+    // certification started
+    {
+        id: 76,
+        image: certificate1,
+        title: 'Certifications',
+        modal_heading:'',
+        modal_image: certificate1,
+        details: '',
+        category: 'Certifications',
+    },
+    {
+        id: 77,
+        image: certificate2,
+        title: 'Certifications',
+        modal_heading:'',
+        modal_image: certificate2,
+        details: '',
+        category: 'Certifications',
+    },
+    {
+        id: 78,
+        image: certificate3,
+        title: 'Certifications',
+        modal_heading:'',
+        modal_image: certificate3,
+        details: '',
+        category: 'Certifications',
+    },
+    {
+        id: 79,
+        image: certificate4,
+        title: 'Certifications',
+        modal_heading:'',
+        modal_image: certificate4,
+        details: '',
+        category: 'Certifications',
+    },
+    {
+        id: 80,
+        image: certificate5,
+        title: 'Certifications',
+        modal_heading:'',
+        modal_image: certificate5,
+        details: '',
+        category: 'Certifications',
+    },
+    {
+        id: 81,
+        image: certificate6,
+        title: 'Certifications',
+        modal_heading:'',
+        modal_image: certificate6,
+        details: '',
+        category: 'Certifications',
+    },
+    {
+        id: 82,
+        image: certificate7,
+        title: 'Certifications',
+        modal_heading:'',
+        modal_image: certificate7,
+        details: '',
+        category: 'Certifications',
+    },
+    {
+        id: 83,
+        image: certificate8,
+        title: 'Certifications',
+        modal_heading:'',
+        modal_image: certificate8,
+        details: '',
+        category: 'Certifications',
+    },
 ];
 
 export const projectsNav = [
