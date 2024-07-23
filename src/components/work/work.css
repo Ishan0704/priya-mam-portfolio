@@ -23,7 +23,7 @@
 }
 
 .work__container{
-    grid-template-columns: repeat(3, max-content);
+    grid-template-columns: repeat(3, 300px);
     gap: 3rem;
     justify-content: center;
 }
@@ -137,7 +137,7 @@
 @media screen and (max-width: 1024px) {
     
     .work__container{
-        grid-template-columns: repeat(2, 0.9fr);
+        grid-template-columns: repeat(3,280px );
         gap: 1rem;
     }
     .work__img{
@@ -149,17 +149,27 @@
     }
   }
   
-  
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 900px) {
+    
     .work__container{
-        grid-template-columns: repeat(1, 0.9fr);
+        grid-template-columns: repeat(2, 250px);
+        gap: 1rem;
+    }
+
+  }
+  @media screen and (max-width: 768px) {
+    
+    .work__container{
+        grid-template-columns: repeat(2, 250px);
         gap: 1rem;
     }
     .work__img{
         width: 150px;
     }
     .work__filters{
-        grid-template-columns: repeat(4,max-content);
+        grid-template-columns: repeat(4,165px);
+        justify-content: space-around;
+        gap: 1rem;
     }
     
   }
@@ -167,7 +177,7 @@
   @media screen and (max-width: 576px) {
     
     .work__filters{
-        grid-template-columns: repeat(2,max-content);
+        grid-template-columns: repeat(2,200px);
         gap: 1rem;
     }
     .modal-content {
@@ -176,22 +186,51 @@
     
   }
   
-  @media screen and (max-width: 350px) {
+  @media screen and (max-width: 430px) {
+    
+    .work__container{
+        grid-template-columns: repeat(1, 200px);
+        gap: 1rem;
+    }
     
     .work__img{
         width: 100px;
     }
+
     .work__filters{
         padding: 1rem;
         grid-template-columns: repeat(2,max-content);
         gap: 0.6rem;
     }
+
     .work__item{
         padding: 0.25rem;
     }
+
     .modal-content {
         max-width: 280px; 
     }
     
+  }
+
+  @media screen and (max-width: 430px) {
+    
+    .work__filters{
+        padding: 0px;
+        grid-template-columns: repeat(2,max-content);
+        gap: 0.6rem;
+        justify-content: space-evenly;
+    }
+  }
+
+  @media screen and (max-width: 380px) {
+    
+    .work__filters{
+        padding: 0px;
+        margin: 0,4rem;
+        grid-template-columns: repeat(2,max-content);
+        gap: 0.6rem;
+        justify-content: space-evenly;
+    }
   }
   
